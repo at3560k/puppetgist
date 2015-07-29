@@ -3,7 +3,7 @@
   - yaml
 
 :hierarchy:
-  - common
+  - "roles/%{role}"
 
 :yaml:
   :datadir: "/etc/puppet/environments/%{::environment}/hieradata/"

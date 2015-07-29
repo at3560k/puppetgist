@@ -1,0 +1,10 @@
+---
+message: "This node is using common data"
+apt::sources:
+  'custom_repo':
+    architecture: 'amd64'
+    location: 'http://ch.archive.ubuntu.com'
+    release: 'trusty'
+    repos: 'main'
+    include_src: false
+    include_deb: true
